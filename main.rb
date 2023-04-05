@@ -52,7 +52,7 @@ MORSE_CODE = [
 
   { '--..' => 'Z' }
 
-]
+].freeze
 
 def decode_morse_letter(morse_code)
   MORSE_CODE.each do |letter|
@@ -67,3 +67,9 @@ def decode_morse_word(morse_word)
 end
 
 puts decode_morse_word('--.. .- -.-. .- -.. -.--')
+
+def decode_morse_sentence(morse_sentence)
+  morse_sentence.split('  ').map { |word| decode_morse_word(word) }.join(' ')
+end
+
+puts decode_morse_sentence('-- -.--   -. .- -- .')
