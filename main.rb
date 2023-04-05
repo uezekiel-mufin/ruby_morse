@@ -56,7 +56,7 @@ MORSE_CODE = [
 
 def decode_morse_letter(morse_code)
   MORSE_CODE.each do |letter|
-    return letter[morse_code] if letter[morse_code]
+    return letter[morse_code].upcase if letter[morse_code]
   end
 end
 
