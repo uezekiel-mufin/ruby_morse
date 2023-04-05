@@ -54,6 +54,11 @@ MORSE_CODE = [
 
 ]
 
-def decode_morse_letter(morse_code); end
+def decode_morse_letter(morse_code)
+  MORSE_CODE.each do |letter|
+    return letter[morse_code] if letter[morse_code]
+  end
+end
 
-decode_morse_letter('.-')
+puts decode_morse_letter('.-')
+puts decode_morse_letter('--..')
