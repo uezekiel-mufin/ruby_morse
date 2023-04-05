@@ -70,6 +70,12 @@ git clone git@github.com:Ezzywealth/ruby_morse.git
 - Twitter: [@EzzyWealth](https://twitter.com/EzzyWealth)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/ezekiel-udiomnuno)
 
+👤 **Ermiyas Demsew**
+
+- GitHub: [@The-Normal-One1](https://github.com/The-Normal-One1)
+- Twitter: [@DemsewErmiyas](https://twitter.com/DemsewErmiyas)
+- LinkedIn: [@Ermiyas Demsew](https://www.linkedin.com/in/ermiyas-demsew-616b1b19a/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
