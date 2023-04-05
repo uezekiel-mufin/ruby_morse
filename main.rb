@@ -66,9 +66,10 @@ def decode_morse_word(morse_word)
   morse_word.split.map { |letter| decode_morse_letter(letter) }.join
 end
 
-puts decode_morse_word('--.. .- -.-. .- -.. -.--')
+puts decode_morse_word('-- -.--   -. .- -- .')
 
 def decode_morse_sentence(morse_sentence)
   morse_sentence.split('  ').map { |word| decode_morse_word(word) }.join(' ')
 end
-puts decode_morse_sentence('-- -.--   -. .- -- .')
+
+puts decode_morse_sentence('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
